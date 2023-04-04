@@ -28,5 +28,6 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 
 sudo usermod -aG docker ubuntu
+sudo usermod -aG docker root
 sudo newgrp docker
 echo "finished"
