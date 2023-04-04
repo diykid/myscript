@@ -1,3 +1,4 @@
+cd /home/ubuntu
 if [ ! -d ~/.shardeum ]; then
     mkdir ~/.shardeum
 fi
