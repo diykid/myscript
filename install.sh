@@ -1,13 +1,14 @@
 
 echo install docker 
-curl -O https://raw.githubusercontent.com/diykid/myscript/main/installdocker.sh && chmod +x installdocker.sh && ./installdocker.sh
-
-
+sudo wget -q -O /home/ubuntu/installdocker.sh https://raw.githubusercontent.com/diykid/myscript/main/installdocker.sh
+sudo chmod +x installdocker.sh
+sudo ./installdocker.sh
+echo =================================================================
 echo install validator
-curl -O https://raw.githubusercontent.com/diykid/myscript/main/installvalidator.sh && chmod +x installvalidator.sh && ./installvalidator.sh
-
-
+sudo wget -q -O /home/ubuntu/installvalidator.sh  https://raw.githubusercontent.com/diykid/myscript/main/installvalidator.sh
+sudo chmod +x installvalidator.sh 
+sudo ./installvalidator.sh
 echo install watchdoge
 sudo wget -q -O /home/ubuntu/.shardeum/watchdog.sh https://raw.githubusercontent.com/bombermine3/nodes/main/shardeum/watchdog.sh
-chmod +x /home/ubuntu/.shardeum/watchdog.sh
+sudo chmod +x /home/ubuntu/.shardeum/watchdog.sh
 sudo sh -c 'echo "*/5 * * * * ubuntu bash /home/ubuntu/.shardeum/watchdog.sh >> /home/ubuntu/.shardeum/watchdog.log" >> /etc/crontab'
