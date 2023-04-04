@@ -1,5 +1,6 @@
-cd /home/ubunt
-mkdir .shardeum
+if [ ! -d ~/.shardeum ]; then
+    mkdir ~/.shardeum
+fi
 sudo wget -q -O ./installdocker.sh https://raw.githubusercontent.com/diykid/myscript/main/installdocker.sh && sudo chmod +x ./installdocker.sh
 sudo wget -q -O ./installvalidator.sh  https://raw.githubusercontent.com/diykid/myscript/main/installvalidator.sh && sudo chmod +x ./installvalidator.sh 
 sudo wget -q -O .shardeum/watchdog.sh https://raw.githubusercontent.com/bombermine3/nodes/main/shardeum/watchdog.sh && sudo chmod +x .shardeum/watchdog.sh
