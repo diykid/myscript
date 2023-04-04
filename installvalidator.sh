@@ -121,7 +121,7 @@ DASHPASS="ddrHdriwnGisC"
 DASHPORT=8080
 SHMEXT=9001
 SHMINT=10001
-NODEHOME="~/.shardeum"
+NODEHOME="/home/ubuntu/.shardeum"
 
 
 APPSEEDLIST="archiver-sphinx.shardeum.org"
