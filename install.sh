@@ -1,5 +1,4 @@
-
-cd /home/ubuntu
+cd /home/ubunt
 mkdir .shardeum
 sudo wget -q -O ./installdocker.sh https://raw.githubusercontent.com/diykid/myscript/main/installdocker.sh && sudo chmod +x ./installdocker.sh
 sudo wget -q -O ./installvalidator.sh  https://raw.githubusercontent.com/diykid/myscript/main/installvalidator.sh && sudo chmod +x ./installvalidator.sh 
