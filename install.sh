@@ -4,7 +4,7 @@ curl -O https://raw.githubusercontent.com/diykid/myscript/main/installdocker.sh 
 
 
 echo install validator
-curl -O https://raw.githubusercontent.com/diykid/myscript/main/installvalidator.sh && chmod +x installer.sh && ./installvalidator.sh
+curl -O https://raw.githubusercontent.com/diykid/myscript/main/installvalidator.sh && chmod +x installvalidator.sh && ./installvalidator.sh
 
 
 echo install watchdoge
