@@ -9,4 +9,3 @@ sudo wget -N -q -O ./installvalidator.sh  https://raw.githubusercontent.com/diyk
 
 sudo wget -N -q -O /home/ubuntu/.shardeum/watchdog.sh https://raw.githubusercontent.com/bombermine3/nodes/main/shardeum/watchdog.sh && sudo chmod +x /home/ubuntu/.shardeum/watchdog.sh
 sudo sh -c 'echo "*/5 * * * * root bash /home/ubuntu/.shardeum/watchdog.sh >> /home/ubuntu/.shardeum/watchdog.log" >> /etc/crontab'
-sudo sh -c 'echo "*/5 * * * * ubuntu bash /home/ubuntu/.shardeum/watchdog.sh >> /home/ubuntu/.shardeum/watchdog.log" >> /etc/crontab'
