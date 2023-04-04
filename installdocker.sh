@@ -27,7 +27,10 @@ echo y | sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compo
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
+echo add ubuntu to docker group
 sudo usermod -aG docker ubuntu
+echo add root to docker group
 sudo usermod -aG docker root
+echo refresh docker group
 sudo newgrp docker
 echo "finished"
