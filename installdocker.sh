@@ -32,5 +32,4 @@ sudo usermod -aG docker ubuntu
 echo add root to docker group
 sudo usermod -aG docker root
 echo refresh docker group
-sudo newgrp docker
 echo "finished"
